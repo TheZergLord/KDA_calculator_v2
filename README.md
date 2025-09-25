@@ -40,7 +40,7 @@ Desenvolvido especialmente para caçadores veteranos dos pântanos de Louisiana,
 ## 🌐 Acesso ao Site
 
 ### 🔗 **Site Oficial**
-**https://krokozz.github.io/Hunt-Showdown-1896/**
+**https://kdacalculator.zerglord.app.br/**
 
 ### 📱 **Compatibilidade**
 - ✅ **Desktop**: Windows, macOS, Linux
