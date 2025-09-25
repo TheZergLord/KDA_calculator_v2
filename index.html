@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunt Showdown 1896 - Calculadora KDA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Butcherman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🔫</text></svg>">
+</head>
+<body>
+    <div class="fog-overlay"></div>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="main-title">
+                <span class="hunt-text">Hunt</span>
+                <span class="showdown-text">Showdown</span>
+                <span class="year-text">1896</span>
+            </h1>
+            <p class="subtitle">Calculadora de KDA dos Caçadores</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="calculator-container">
+            <div class="calculator-card">
+                <div class="card-header">
+                    <h2>⚔️ Análise de Desempenho do Caçador ⚔️</h2>
+                    <div class="skull-divider">💀⚡💀⚡💀</div>
+                    <p class="header-subtitle">Revele os segredos do seu desempenho nos Bayous</p>
+                </div>
+
+                <div class="input-section">
+                    <div class="section-title">
+                        <h3>🎯 Entrada Rápida</h3>
+                    </div>
+                    <div class="input-group">
+                        <label for="kda-input">💀 KDA Bruto</label>
+                        <input type="number" id="kda-input" placeholder="ex: 1.38" step="0.01" min="0">
+                        <span class="input-help">Digite seu KDA atual do jogo para análise instantânea</span>
+                    </div>
+                </div>
+
+                <div class="advanced-section">
+                    <h3>🧮 Cálculo Detalhado (Opcional)</h3>
+                    <p class="section-desc">Para análise mais precisa, insira seus valores individuais</p>
+                    <div class="stats-grid">
+                        <div class="input-group">
+                            <label for="kills-input">⚔️ Kills</label>
+                            <input type="number" id="kills-input" placeholder="0" min="0">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="deaths-input">💀 Deaths</label>
+                            <input type="number" id="deaths-input" placeholder="0" min="0">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="assists-input">🤝 Assists</label>
+                            <input type="number" id="assists-input" placeholder="0" min="0">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button id="calculate-btn" class="calculate-button">
+                        <span>🎯 Calcular Destino</span>
+                    </button>
+                </div>
+
+                <div id="results-section" class="results-section" style="display: none;">
+                    <div class="results-header">
+                        <h3>Relatório do Caçador</h3>
+                        <div class="blood-stain">🩸</div>
+                    </div>
+                    <div id="results-content" class="results-content">
+                        <!-- Resultados serão inseridos aqui pelo JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lore-section">
+            <div class="lore-card">
+                <h3>📜 Conhecimento dos Veteranos</h3>
+                <p>No Louisiana de 1896, cada caçador que adentra o pântano carrega consigo não apenas armas, mas também sua reputação forjada em sangue e pólvora.</p>
+                <p>O <strong>KDA (Kill/Death/Assist)</strong> é mais que números - é o testemunho de sua sobrevivência nas terras amaldiçoadas.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>🕯️ Que a escuridão guie seus passos, Caçador 🕯️</p>
+            <p class="copyright">Hunt Showdown 1896 - Calculadora KDA | Criado para os Veteranos do Pântano</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
