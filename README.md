@@ -15,6 +15,8 @@
 
 [🎯 Ver Demo](#-demonstração) • [🚀 Como Usar](#-como-usar) • [📖 Recursos](#-recursos-principais) • [🎨 Design](#-design-e-temática) • [🤝 Contribuir](#-contribuindo)
 
+Créditos para o [KrokozZ](https://github.com/KrokozZ) por ter desenvolvido a calculadora para a web!
+
 </div>
 
 ---
