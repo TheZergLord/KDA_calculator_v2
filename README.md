@@ -17,6 +17,8 @@
 
 Créditos para o [KrokozZ](https://github.com/KrokozZ) por ter desenvolvido a calculadora para a web!
 
+[Versão v1](https://github.com/TheZergLord/whats_my_kda)
+
 </div>
 
 ---
